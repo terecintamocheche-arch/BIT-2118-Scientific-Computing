@@ -134,3 +134,20 @@ Increase the number of iterations from 20 to 30. This gives the methods more opp
 
 ## Modified Real-World Application
 These methods can be used to estimate temperature distribution in buildings or other systems involving heat transfer.
+
+# Task 9: Eigenvalues and Eigenvectors
+
+## Input Values
+The program uses a 4 × 4 adjacency matrix representing connections between four computers.
+
+## Mathematical Operation
+NumPy's `np.linalg.eig()` calculates the eigenvalues and eigenvectors of the matrix. The dominant eigenvector is used to calculate normalized centrality scores.
+
+## Output Interpretation
+The centrality scores indicate the relative importance of each computer in the network. A higher score means the computer is more central based on its connections.
+
+## Changing an Input
+Add a connection between Computer 1 and Computer 4 by changing the corresponding matrix entries from 0 to 1. The network structure and centrality scores will change.
+
+## Modified Real-World Application
+This method can be used to identify important devices in computer networks or influential pages in a web-link network.
