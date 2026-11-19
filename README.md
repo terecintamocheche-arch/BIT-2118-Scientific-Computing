@@ -23,3 +23,6 @@ The average temperature throughout the day was 25.5°C. The lowest recorded temp
 
 ## 6. Real-World Application
 This program can help weather stations analyse daily temperature patterns and provide useful information for weather monitoring and agricultural planning.
+
+## 7. Changing an Input Parameter
+I changed one temperature reading from 31°C to 35°C. As a result, the average temperature increased from 25.5°C to approximately 25.67°C, while the maximum temperature increased from 31°C to 35°C. This demonstrates how changing an input affects the calculated results.
