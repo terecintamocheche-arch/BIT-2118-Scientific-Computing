@@ -329,3 +329,26 @@ Change the selling price from 100 to 120. This changes the profit function and i
 
 ## Modified Real-World Application
 Numerical optimization can help a farmer determine the amount of fertilizer to use while balancing crop yield against fertilizer costs.
+
+# Task 20: Random Numbers and Monte Carlo Methods
+
+## Input Values
+The program uses 10,000 randomly generated points with x and y coordinates between -1 and 1.
+
+## Mathematical Operation
+The program checks whether each point falls inside a circle using:
+
+x² + y² ≤ 1
+
+It estimates π using:
+
+π ≈ 4 × (points inside the circle / total points)
+
+## Output Interpretation
+The estimated value of π is compared with the actual value. The estimate may differ slightly because random points are used.
+
+## Changing an Input
+Increase the number of random points from 10,000 to 50,000. The estimate will generally become more accurate.
+
+## Modified Real-World Application
+Monte Carlo methods can estimate uncertainty and risk in project planning by running simulations with randomly generated input values.
