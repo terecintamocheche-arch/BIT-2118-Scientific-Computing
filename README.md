@@ -185,3 +185,20 @@ Change the final cash flow from 2,500 to 3,000. This increases the expected retu
 
 ## Modified Real-World Application
 These methods can help investors evaluate the profitability of projects and business investments.
+
+# Task 12: Polynomial and Nonlinear Equation Solving
+
+## Input Values
+The program uses a circle equation, x² + y² = 4, and a parabola equation, y = x² - 1.
+
+## Mathematical Operation
+SciPy's `root()` function solves the system of nonlinear equations using an initial estimate of x = 1 and y = 1.
+
+## Output Interpretation
+The output gives the coordinates where the circle and parabola intersect. A successful convergence indicates that the solver found a solution.
+
+## Changing an Input
+Change the initial guess from [1, 1] to [0.5, 1]. This may lead the solver to a different intersection point.
+
+## Modified Real-World Application
+Nonlinear equation solving can be used in engineering to calculate the intersection of curves and model relationships between variables.
