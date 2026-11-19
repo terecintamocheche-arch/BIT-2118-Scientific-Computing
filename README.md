@@ -202,3 +202,20 @@ Change the initial guess from [1, 1] to [0.5, 1]. This may lead the solver to a 
 
 ## Modified Real-World Application
 Nonlinear equation solving can be used in engineering to calculate the intersection of curves and model relationships between variables.
+
+# Task 13: Interpolation
+
+## Input Values
+The program uses recorded temperatures of 20, 22, 25, 27 and 30°C at hours 8, 9, 10, 11 and 12.
+
+## Mathematical Operation
+Linear interpolation and cubic spline interpolation estimate values between known data points.
+
+## Output Interpretation
+The program estimates the temperature at 10:30. The graph compares the recorded measurements with the two interpolation methods.
+
+## Changing an Input
+Change the temperature recorded at 10:00 from 25°C to 28°C. This changes the estimated temperature at 10:30 and the shape of the graph.
+
+## Modified Real-World Application
+Interpolation can be used by weather stations to estimate missing temperature readings between recorded measurements.
