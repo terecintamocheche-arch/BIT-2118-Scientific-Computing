@@ -83,3 +83,20 @@ Change the scaling matrix values from 2 to 3. The square becomes larger because 
 
 ## Modified Real-World Application
 The program can be used in a computer graphics system to rotate and resize objects displayed on a screen.
+
+# Task 6: Solution of Systems of Linear Equations
+
+## Input Values
+The program uses the coefficient matrix A = [[4, 2], [8, 12]] and the result vector B = [20, 72].
+
+## Mathematical Operation
+NumPy's `np.linalg.solve()` solves two simultaneous linear equations to find the unknown values.
+
+## Output Interpretation
+The solution is 3 units of Server Type A and 4 units of Server Type B. The verification confirms that these values satisfy both equations.
+
+## Changing an Input
+Change the first result value from 20 to 24. The solution changes because the system now has a different requirement.
+
+## Modified Real-World Application
+This method can be used to allocate computing resources based on different server capacities and resource requirements.
