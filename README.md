@@ -117,3 +117,20 @@ Change the first value of the first measurement vector from 15 to 20. This chang
 
 ## Modified Real-World Application
 This method can be used in engineering simulations where several measurement sets need to be analysed using the same system of equations.
+
+# Task 8: Iterative Methods for Linear Systems
+
+## Input Values
+The program uses a 3 × 3 coefficient matrix, a temperature vector and initial estimates of zero.
+
+## Mathematical Operation
+The Jacobi and Gauss-Seidel iterative methods repeatedly update estimated values until they approach a solution.
+
+## Output Interpretation
+Both methods estimate the temperature values. The graph shows how the error changes with each iteration. A decreasing error indicates convergence towards the solution.
+
+## Changing an Input
+Increase the number of iterations from 20 to 30. This gives the methods more opportunities to approach the solution.
+
+## Modified Real-World Application
+These methods can be used to estimate temperature distribution in buildings or other systems involving heat transfer.
