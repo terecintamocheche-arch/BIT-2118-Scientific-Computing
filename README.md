@@ -219,3 +219,20 @@ Change the temperature recorded at 10:00 from 25°C to 28°C. This changes the e
 
 ## Modified Real-World Application
 Interpolation can be used by weather stations to estimate missing temperature readings between recorded measurements.
+
+# Task 14: Curve Fitting and Approximation
+
+## Input Values
+The program uses the number of concurrent users and their corresponding server response times.
+
+## Mathematical Operation
+SciPy's `curve_fit()` estimates the parameters of a quadratic model. RMSE measures the difference between actual and predicted values.
+
+## Output Interpretation
+The fitted curve shows the relationship between the number of users and server response time. The model also predicts response time for 400 users. A smaller RMSE indicates a better fit.
+
+## Changing an Input
+Change the response time for 300 users from 4.1 to 5.0 seconds. This changes the fitted curve, its RMSE and the prediction.
+
+## Modified Real-World Application
+Curve fitting can help technology companies estimate server performance as the number of users increases.
