@@ -26,3 +26,20 @@ This program can help weather stations analyse daily temperature patterns and pr
 
 ## 7. Changing an Input Parameter
 I changed one temperature reading from 31°C to 35°C. As a result, the average temperature increased from 25.5°C to approximately 25.67°C, while the maximum temperature increased from 31°C to 35°C. This demonstrates how changing an input affects the calculated results.
+
+# Task 3: Mathematical Functions and Vectorization
+
+## Input Values
+The program generates 1,000,000 random network latency measurements between 10 and 100 milliseconds.
+
+## Mathematical Operation
+The program calculates the average latency using a Python loop and NumPy's `mean()` function. It also measures the execution time of both methods.
+
+## Output Interpretation
+Both methods calculate the average latency. NumPy vectorization generally performs the calculation faster because it processes the array efficiently.
+
+## Changing an Input
+The number of measurements can be changed from 1,000,000 to 500,000. This reduces the amount of data processed and generally reduces execution time.
+
+## Real-World Application
+This method can be used to analyse network performance and monitor internet response times.
