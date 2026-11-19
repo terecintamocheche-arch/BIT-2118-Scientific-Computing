@@ -312,3 +312,20 @@ Change the growth rate from 0.2 to 0.3. The population will increase faster.
 
 ## Modified Real-World Application
 The same method can model bacterial growth under suitable conditions, using an appropriate initial population and growth rate.
+
+# Task 19: Numerical Optimization
+
+## Input Values
+The program uses a selling price of 100 per unit, a cost function, and a production range between 0 and 100 units.
+
+## Mathematical Operation
+SciPy's `minimize_scalar()` finds the quantity that maximizes profit by minimizing the negative profit function.
+
+## Output Interpretation
+The program identifies the production quantity that gives the highest possible profit within the selected range. The graph displays the relationship between production quantity and profit.
+
+## Changing an Input
+Change the selling price from 100 to 120. This changes the profit function and increases the optimal production quantity.
+
+## Modified Real-World Application
+Numerical optimization can help a farmer determine the amount of fertilizer to use while balancing crop yield against fertilizer costs.
