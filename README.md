@@ -151,3 +151,20 @@ Add a connection between Computer 1 and Computer 4 by changing the corresponding
 
 ## Modified Real-World Application
 This method can be used to identify important devices in computer networks or influential pages in a web-link network.
+
+# Task 10: Root Finding – Bisection and Fixed-Point Methods
+
+## Input Values
+The program uses a heat-balance equation with a constant temperature of 25 and a heat factor of 10.
+
+## Mathematical Operation
+The Bisection method repeatedly divides an interval to find a root. Fixed-point iteration repeatedly substitutes an estimated value into the equation.
+
+## Output Interpretation
+Both methods estimate the temperature at which the heat-balance equation equals zero. Similar results indicate that both methods have approached the same root.
+
+## Changing an Input
+Change the heat factor from 10 to 15. This changes the equation and produces a different equilibrium temperature.
+
+## Modified Real-World Application
+Root-finding methods can be used to estimate equilibrium temperatures in heating and cooling systems.
