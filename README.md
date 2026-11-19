@@ -168,3 +168,20 @@ Change the heat factor from 10 to 15. This changes the equation and produces a d
 
 ## Modified Real-World Application
 Root-finding methods can be used to estimate equilibrium temperatures in heating and cooling systems.
+
+# Task 11: Newton-Raphson and Secant Methods
+
+## Input Values
+The program uses an initial investment of 10,000 and future cash flows of 3,000, 3,500, 4,000 and 2,500.
+
+## Mathematical Operation
+The Newton-Raphson and Secant methods estimate the root of the Net Present Value equation. The root represents the Internal Rate of Return (IRR).
+
+## Output Interpretation
+The calculated IRR represents the discount rate at which the investment's net present value becomes zero. Both methods should produce similar results.
+
+## Changing an Input
+Change the final cash flow from 2,500 to 3,000. This increases the expected return and changes the calculated IRR.
+
+## Modified Real-World Application
+These methods can help investors evaluate the profitability of projects and business investments.
