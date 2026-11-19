@@ -100,3 +100,20 @@ Change the first result value from 20 to 24. The solution changes because the sy
 
 ## Modified Real-World Application
 This method can be used to allocate computing resources based on different server capacities and resource requirements.
+
+# Task 7: Gaussian Elimination and LU Decomposition
+
+## Input Values
+The program uses a 3 × 3 coefficient matrix and two different measurement vectors.
+
+## Mathematical Operation
+LU decomposition separates a matrix into lower and upper triangular factors. SciPy's `lu_factor()` performs the factorization, while `lu_solve()` solves the systems.
+
+## Output Interpretation
+The program produces solutions for two measurement systems using the same coefficient matrix. Verification confirms that the solutions satisfy the original equations.
+
+## Changing an Input
+Change the first value of the first measurement vector from 15 to 20. This changes the calculated solution.
+
+## Modified Real-World Application
+This method can be used in engineering simulations where several measurement sets need to be analysed using the same system of equations.
