@@ -253,3 +253,20 @@ Change the final position from 50 metres to 60 metres. This increases the estima
 
 ## Modified Real-World Application
 Numerical differentiation can be used in vehicle tracking systems to estimate speed from recorded position measurements.
+
+# Task 16: Numerical Integration
+
+## Input Values
+The program uses time measurements in seconds and velocity measurements in metres per second.
+
+## Mathematical Operation
+The trapezoidal rule, implemented using SciPy's `trapezoid()`, estimates the area under the velocity-time graph. This area represents total distance travelled.
+
+## Output Interpretation
+The program calculates an estimated total distance of 62.5 metres. The graph shows how velocity changes over time.
+
+## Changing an Input
+Change the final velocity from 25 to 30 m/s. This increases the estimated distance travelled.
+
+## Modified Real-World Application
+Numerical integration can be used in vehicle tracking systems to estimate the distance travelled from recorded speed measurements.
