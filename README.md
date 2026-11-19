@@ -64,3 +64,22 @@ Change the approximation from 1.414 to 1.4. The absolute and relative errors wil
 
 ## Real-World Application
 Floating-point accuracy is important in scientific simulations, engineering calculations and financial computations.
+
+# Task 5: Matrix Algebra and Matrix Operations
+
+## Input Values
+The program uses four coordinate points representing a square and two transformation matrices.
+
+## Mathematical Operations
+- Matrix multiplication.
+- Rotation of coordinates by 90 degrees.
+- Scaling coordinates by a factor of 2.
+
+## Output Interpretation
+The original square is rotated and enlarged. The resulting coordinates show the new positions of the points after both transformations.
+
+## Changing an Input
+Change the scaling matrix values from 2 to 3. The square becomes larger because its coordinates are multiplied by a greater scaling factor.
+
+## Modified Real-World Application
+The program can be used in a computer graphics system to rotate and resize objects displayed on a screen.
