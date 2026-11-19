@@ -43,3 +43,24 @@ The number of measurements can be changed from 1,000,000 to 500,000. This reduce
 
 ## Real-World Application
 This method can be used to analyse network performance and monitor internet response times.
+
+# Task 4: Floating-Point Arithmetic and Numerical Errors
+
+## Input Values
+The program uses decimal values 0.1 and 0.2 and an approximation of the square root of 2 (1.414).
+
+## Mathematical Operations
+- Addition of floating-point numbers.
+- Calculation of the square root using NumPy.
+- Absolute error and relative error calculations.
+
+## Output Interpretation
+The addition of 0.1 and 0.2 may produce a value slightly different from 0.3 because computers store decimal numbers in binary floating-point format. NumPy's `isclose()` checks whether the values are sufficiently close.
+
+The absolute and relative errors show the difference between the exact square root and its approximation.
+
+## Changing an Input
+Change the approximation from 1.414 to 1.4. The absolute and relative errors will increase because the approximation becomes less accurate.
+
+## Real-World Application
+Floating-point accuracy is important in scientific simulations, engineering calculations and financial computations.
