@@ -270,3 +270,24 @@ Change the final velocity from 25 to 30 m/s. This increases the estimated distan
 
 ## Modified Real-World Application
 Numerical integration can be used in vehicle tracking systems to estimate the distance travelled from recorded speed measurements.
+
+# Task 17: Ordinary Differential Equations – Euler's Method
+
+## Input Values
+The program uses an initial temperature of 90°C, room temperature of 25°C, cooling rate of 0.1, time step of 1 minute and total time of 10 minutes.
+
+## Mathematical Operation
+Euler's method approximates the solution of a differential equation using the current value and its rate of change.
+
+The cooling equation is:
+
+dT/dt = -k(T - room temperature)
+
+## Output Interpretation
+The program estimates the water temperature at each time step. The graph shows the temperature decreasing towards room temperature.
+
+## Changing an Input
+Change the cooling rate from 0.1 to 0.2. The water cools faster, resulting in a lower temperature after 10 minutes.
+
+## Modified Real-World Application
+Euler's method can also model how the temperature of food changes while cooling after cooking.
