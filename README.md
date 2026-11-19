@@ -291,3 +291,24 @@ Change the cooling rate from 0.1 to 0.2. The water cools faster, resulting in a 
 
 ## Modified Real-World Application
 Euler's method can also model how the temperature of food changes while cooling after cooking.
+
+# Task 18: Numerical Solution of ODEs Using SciPy
+
+## Input Values
+The program uses an initial population of 100, a growth rate of 0.2 per year, and a time period of 10 years.
+
+## Mathematical Operation
+The program uses SciPy's `solve_ivp()` to numerically solve the differential equation:
+
+dP/dt = rP
+
+Where P represents population and r represents the growth rate.
+
+## Output Interpretation
+The program estimates the population over 10 years. The graph shows an increasing population over time.
+
+## Changing an Input
+Change the growth rate from 0.2 to 0.3. The population will increase faster.
+
+## Modified Real-World Application
+The same method can model bacterial growth under suitable conditions, using an appropriate initial population and growth rate.
