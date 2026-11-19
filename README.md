@@ -236,3 +236,20 @@ Change the response time for 300 users from 4.1 to 5.0 seconds. This changes the
 
 ## Modified Real-World Application
 Curve fitting can help technology companies estimate server performance as the number of users increases.
+
+# Task 15: Numerical Differentiation
+
+## Input Values
+The program uses time measurements in seconds and position measurements in metres.
+
+## Mathematical Operation
+NumPy's `gradient()` estimates the derivative of position with respect to time. This gives the object's velocity.
+
+## Output Interpretation
+The program displays estimated velocity at each time point. The graphs show how position and velocity change over time.
+
+## Changing an Input
+Change the final position from 50 metres to 60 metres. This increases the estimated velocity near the final time point.
+
+## Modified Real-World Application
+Numerical differentiation can be used in vehicle tracking systems to estimate speed from recorded position measurements.
